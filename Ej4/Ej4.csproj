@@ -36,6 +36,11 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IEncriptador.cs" />
+    <Compile Include="Encriptador.cs" />
+    <Compile Include="EncriptadorCesar.cs" />
+    <Compile Include="EncriptadorAES.cs" />
+    <Compile Include="EncriptadorNulo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
