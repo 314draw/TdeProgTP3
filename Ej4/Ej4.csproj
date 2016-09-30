@@ -32,6 +32,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Mono.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -41,6 +45,7 @@
     <Compile Include="EncriptadorCesar.cs" />
     <Compile Include="EncriptadorAES.cs" />
     <Compile Include="EncriptadorNulo.cs" />
+    <Compile Include="FabricaEncriptadores.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,8 +4,8 @@ namespace Ej4
 {
 	public interface IEncriptador
 	{
-		String Encriptar(String pCadena);
-		String DesEncriptar(String pCadena);
+	    String Encriptar(String pCadena);
+	    String DesEncriptar(String pCadena);
 	}
 }
 

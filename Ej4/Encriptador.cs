@@ -12,17 +12,17 @@ namespace Ej4
 			set{this.iNombre = value;}
 		}
 
-		public String IEncriptador.Encriptar(String pCadena)
+		public String Encriptar(String pCadena)
 		{
-
+			return "holis";
 		} 
-		public String IEncriptador.DesEncriptar(String pCadena)
+		public  String DesEncriptar(String pCadena)
+		{
+			return "holis";
+		}
+		public Encriptador ()
 		{
 
-		}
-		public Encriptador (String pNombre)
-		{
-			this.Nombre = pNombre;
 		}
 	}
 }
