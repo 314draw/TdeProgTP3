@@ -39,7 +39,7 @@ namespace Ej4
 		/// <param name="pCadena">Cadena que se desea desencriptar.</param>
 		public String DesEncriptar(String pCadena)
 		{
-			String cadenaFinal = "";
+			String cadenaFinal;
 			for (int i = (pCadena.Length-this.Desplazamiento); i <pCadena.Length; i++) 
 			{
 				cadenaFinal+= pCadena [i];
