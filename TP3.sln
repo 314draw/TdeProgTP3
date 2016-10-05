@@ -39,6 +39,6 @@ Global
 		{DCDB6E59-AF00-45C2-B7D7-2DAD704D423A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Ej1\Ej1.csproj
+		StartupItem = Ej5\Ej5.csproj
 	EndGlobalSection
 EndGlobal

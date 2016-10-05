@@ -5,9 +5,9 @@ namespace Ej1
 	public class Veterinaria
 	{
 		/// <summary>
-		/// A
+		/// Lista los animales y les pide que hagan ruido
 		/// </summary>
-		/// <param name="pAnimales">P animales.</param>
+		/// <param name="pAnimales">listado de animales</param>
 		public void AceptarAnimales(Animal[] pAnimales)
 		{
 			for (Int16 i=0; i<pAnimales.Length; i++) 

@@ -7,6 +7,9 @@ namespace Ej4
 	public class TestEncriptadorCesar
 	{
 		[Test()]
+		/// <summary>
+		/// Test Encriptado Encripatdor Cesar.
+		/// </summary>
 		public void TestEncriptar()
 		{
 			String cadena = "Elefante";
@@ -16,6 +19,9 @@ namespace Ej4
 			Assert.Equals (ECesar.Encriptar (cadena), ResultadoEsperado);
 		}
 		[Test()]
+		/// <summary>
+		/// Test Desencriptacion Encriptador Cesar.
+		/// </summary>
 		public void TestDesEncriptar()
 		{
 			String cadena = "Elefante";

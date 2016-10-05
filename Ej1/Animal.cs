@@ -2,7 +2,7 @@ using System;
 
 namespace Ej1
 {
-	public class Animal
+	public abstract class Animal
 	{
 		public virtual void HacerRuido()
 		{
